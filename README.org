@@ -1,0 +1,8 @@
+* Start Page
+A minimalist start page with automatic changin dark and light theme.
+
+** Light Mode
+file:./preview-light.png
+
+** Dark Mode
+[[file:./preview-dark.png]]

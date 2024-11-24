@@ -1,0 +1,54 @@
+/* Light Theme */
+/* Dark Theme */
+body {
+  background: #222;
+  overflow: hidden; }
+
+#search_box {
+  transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* Appearence */
+  width: 50%;
+  height: 50px;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background-color: #333;
+  font-family: hack;
+  font-size: 30px;
+  color: white;
+  text-align: center; }
+
+#main-linkspace {
+  transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 90%;
+  width: 50%; }
+  #main-linkspace .linkspace {
+    width: auto;
+    float: left;
+    margin: 7.76%; }
+    #main-linkspace .linkspace a {
+      text-decoration: none; }
+    #main-linkspace .linkspace i {
+      color: white; }
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  body {
+    background: #eee; }
+
+  #search_box {
+    background-color: #ddd;
+    color: #333; }
+
+  #main-linkspace .linkspace i {
+    color: #333; } }
+
+/*# sourceMappingURL=index.css.map */

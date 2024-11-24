@@ -1,0 +1,65 @@
+/* Light Theme
+$fg-light: #333
+$se-light: #ddd
+$bg-light: #eee
+
+/* Dark Theme
+$fg-dark: white
+$se-dark: #333
+$bg-dark: #222
+
+=align_center()
+  transform: translate(-50%, -50%)
+  margin: 0
+  position: absolute
+  top: 50%
+  left: 50%
+
+body
+  background: $bg-dark
+  overflow: hidden
+
+#search_box
+  +align_center
+
+  /* Appearence */
+  width: 50%
+  height: 50px
+  padding: 0
+
+  border: 0
+  border-radius: 10px
+
+  background-color: $se-dark
+
+  font-family: hack
+  font-size: 30px
+  color: $fg-dark
+  text-align: center
+
+#main-linkspace
+  +align_center
+  top: 90%
+  width: 50%
+
+  .linkspace
+    width: auto
+    float: left
+    margin: 7.76%
+    a
+      text-decoration: none
+    i
+      color: $fg-dark
+
+/* Light mode */
+@media (prefers-color-scheme: light)
+
+  body
+    background: $bg-light
+
+  #search_box
+    background-color: $se-light
+    color: $fg-light
+
+  #main-linkspace .linkspace i
+      color: $fg-light
